@@ -4,8 +4,8 @@ import { AutorRepository } from "../Repositories/AutorRepository";
 export class AutorService {
     constructor(private autorRepository: AutorRepository) {}
 
-    agregarAutor(nombre: string, fechaNacimiento: Date): Autor {
-        const autor = new Autor(Date.now(), nombre, fechaNacimiento);
+    agregarAutor(nombre: string, fechaNacimiento: Date,edad: number): Autor {
+        const autor = new Autor(Date.now(), nombre, fechaNacimiento, edad);
         this.autorRepository.agregar(autor);
         return autor;
     }

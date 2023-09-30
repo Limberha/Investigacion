@@ -5,11 +5,12 @@ export class AutorController {
     constructor(private autorService: AutorService) {}
 
     createAutor(data: AutorDTO): AutorDTO {
-        const autor = this.autorService.agregarAutor(data.nombre, new Date(data.fechaNacimiento));
+        const autor = this.autorService.agregarAutor(data.nombre, new Date(data.fechaNacimiento), data.edad);
         return {
             id: autor.id,
             nombre: autor.nombre,
-            fechaNacimiento: autor.fechaNacimiento.toISOString()
+            fechaNacimiento: autor.fechaNacimiento.toISOString(),
+            edad: autor.edad
         };
     }
 
@@ -18,7 +19,8 @@ export class AutorController {
         return autor ? {
             id: autor.id,
             nombre: autor.nombre,
-            fechaNacimiento: autor.fechaNacimiento.toISOString()
+            fechaNacimiento: autor.fechaNacimiento.toISOString(),
+            edad: autor.edad
         } : undefined;
     }
 }
