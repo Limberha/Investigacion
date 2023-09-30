@@ -17,6 +17,7 @@ Las arquitecturas de desarrollo de software más utilizadas actualmente:
 2.Modelo-Vista-Controlador (MVC):
 
 -Descripción: Este patrón separa la aplicación en tres componentes principales: el modelo (representación de datos), la vista (interfaz de usuario) y el controlador (manejo de eventos y comunicación entre modelo y vista).
+
     -Funcionamiento:
     #Modelo: Representa los datos y la lógica de negocio.
 
@@ -29,6 +30,7 @@ Las arquitecturas de desarrollo de software más utilizadas actualmente:
 3.Arquitectura Orientada a Servicios (SOA):
 
 -Descripción: En SOA, las aplicaciones están diseñadas como servicios independientes que se comunican entre sí a través de una red.
+
     -Funcionamiento:
     #Servicios: Son unidades independientes que ofrecen funcionalidades específicas y se comunican a través de estándares como HTTP o SOAP.
 
@@ -37,6 +39,7 @@ Las arquitecturas de desarrollo de software más utilizadas actualmente:
 4.Microservicios (Microservices):
 
 -Descripción: Esta arquitectura descompone una aplicación en pequeños servicios independientes, cada uno enfocado en una función específica.
+
     -Funcionamiento:
     #Cada microservicio es autónomo, tiene su propia base de datos y se comunica con otros a través de protocolos como HTTP o mensajes.
 
@@ -45,6 +48,7 @@ Las arquitecturas de desarrollo de software más utilizadas actualmente:
 5.Arquitectura Hexagonal (Ports and Adapters):
 
 -Descripción: Este enfoque se centra en la separación de la lógica de negocio del mecanismo de comunicación con el exterior.
+
     -Funcionamiento:
     #Puertos: Interfaces que definen cómo interactuar con la aplicación.
 
@@ -55,6 +59,7 @@ Las arquitecturas de desarrollo de software más utilizadas actualmente:
 6.Arquitectura sin Servidor (Serverless):
 
 -Descripción: En esta arquitectura, las aplicaciones se construyen y ejecutan sin la necesidad de gestionar servidores de forma directa.
+
     -Funcionamiento:
     #Las aplicaciones se dividen en pequeñas funciones que se ejecutan en respuesta a eventos.
 
@@ -63,6 +68,7 @@ Las arquitecturas de desarrollo de software más utilizadas actualmente:
 7.Arquitectura Event-Driven:
 
 -Descripción: Este enfoque se basa en la comunicación entre componentes a través de eventos.
+
     -Funcionamiento:
     #Los componentes emiten eventos cuando ocurren ciertos cambios y otros componentes responden a estos eventos.
 
